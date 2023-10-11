@@ -91,3 +91,8 @@ body {
     display: grid;
     grid-gap: 50px;
 }
+
+/* ----------------- GALLERY ---------------------*/
+.gallery-photo {
+    width: 100%;
+}
