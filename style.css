@@ -87,3 +87,7 @@ body {
 
 
 /* ------------- ADVENGERS BLOCK ---------------- */
+.advantages-container-wrapper {
+    display: grid;
+    grid-gap: 50px;
+}
