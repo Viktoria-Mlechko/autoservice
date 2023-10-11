@@ -1,0 +1,89 @@
+:root {
+    --light-color: #F8F3F5;
+    --dark-color: #251B23;
+    --active-tab-color: #7A363A;
+    --button-color: #F0AB4C;
+}
+
+
+body {
+    color: var(--light-color);
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    background-color: var(--dark-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------- AGENERAL ---------------- */
+.page-block-title {
+    font-size: 48px;
+    display: block;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.main-header-title,
+.main-header-subtitle,
+.page-block-title {
+    font-family: 'Jura', sans-serif;
+}
+.page-block {
+    padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------- MAIN HEDDER ------------------ */
+.main-header {
+    background-image: url("/images/main-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-header-wrapper {
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+}
+.main-header-title {
+    font-size: 64px;
+}
+.main-header-subtitle {
+    margin-bottom: 50px;
+}
+.page-button {
+    color: var(--dark-color);
+    text-transform: uppercase;
+    background-color: var(--button-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 17px 45px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.page-block--light {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+
+
+
+
+
+/* ------------- ADVENGERS BLOCK ---------------- */
