@@ -94,5 +94,12 @@ body {
 
 /* ----------------- GALLERY ---------------------*/
 .gallery-photo {
+    aspect-ratio: 1 / 1;
     width: 100%;
+    background-size: 100%;
+    background-position: center center;
+    transition: 1s;
+}
+.gallery-photo:hover {
+    background-size: 110%;
 }
